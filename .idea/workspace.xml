@@ -4,11 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="" />
+    <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="frist project is created">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Detayli_Arama_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Hasta_Kayıt_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Kurum_Birim_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Login_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/US01_Login_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/US02_MuayeneKayit_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/US03_HastaKayit_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/US04_DetaylıHastaArama_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/US05_Logout_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US01_Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US02_MuayeneKayit.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US03_HastaKayit.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US04_DetayliHastaArama.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US05_Logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orn.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TTqQUmk1QJG17unzI4bf4AkgP1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +59,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="runner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Probel_Kayit\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="US01_Login_StepDefinitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stepdefiniations.US01_Login_StepDefinitions" />
+      <module name="Probel_Kayit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepdefiniations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.US01_Login_StepDefinitions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,6 +101,29 @@
       <option name="presentableId" value="Default" />
       <updated>1691077403293</updated>
     </task>
+    <task id="LOCAL-00001" summary="frist project create">
+      <created>1691077519032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691077519032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frist project create" />
+    <option name="LAST_COMMIT_MESSAGE" value="frist project create" />
   </component>
 </project>

@@ -5,9 +5,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class Hooks {
 
@@ -15,9 +17,15 @@ public class Hooks {
     @Before
     public void setUp(Scenario scenario) {
 
+        Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Driver.getDriver().get(ConfigReader.getProperty("probel_WebUrl"));
+
         System.out.println("scenario started");
        // System.out.println("scenario id =" + scenario.getId());
         System.out.println("scenario name =" + scenario.getName());
+
+
 
     }
 

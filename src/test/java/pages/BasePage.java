@@ -10,17 +10,7 @@ public class BasePage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id ="txtKA" )
-    public WebElement kullaniciKodu;
 
-    @FindBy(id ="txtSF" )
-    public WebElement sifre;
-
-    @FindBy(id ="txtWSF" )
-    public WebElement webSifre;
-
-    @FindBy(id ="btnLogin" )
-    public WebElement clickButton;
 
     @FindBy(xpath ="//a[@class='open']" )
     public WebElement hastaIslemleri;
@@ -39,4 +29,7 @@ public class BasePage {
 
     @FindBy(xpath = "(//input[@class='inpt wpx50'])[4]")
     public WebElement kurumDetay;
+
+    @FindBy(id = "PopupSaveButton_0")
+    public  WebElement kaydetButton;
 }

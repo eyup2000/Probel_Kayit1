@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="frist project is created">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Hasta_Kayıt_Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Detayli_Arama_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Detayli_Arama_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Hasta_Kayit_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Hasta_Kayit_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Kurum_Birim_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Kurum_Birim_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Muayene_Kayit_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Muayene_Kayit_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefiniations/HastaKayit_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/HastaKayit_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefiniations/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefiniations/Login_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefiniations/Login_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +64,7 @@
       <recent name="C:\Users\user\IdeaProjects\Probel_Kayit\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Login_StepDefinitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stepdefiniations.Login_StepDefinitions" />
-      <module name="Probel_Kayit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stepdefiniations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page (1)">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
@@ -80,6 +73,66 @@
       <module name="Probel_Kayit" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" />
+      <option name="GLUE" value="stepdefiniations" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Probel_Kayit" />
+      <option name="NAME_FILTER" value="^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefiniations" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Probel_Kayit" />
+      <option name="NAME_FILTER" value="^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefiniations" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Probel_Kayit" />
+      <option name="NAME_FILTER" value="^TC0118 \- \&quot;Tc\&quot; Kimlik no\&quot; error message verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0118 \- \&quot;Tc\&quot; Kimlik no\&quot; error message verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page (1)" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
+        <item itemvalue="Cucumber Java.Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" />
         <item itemvalue="Cucumber Java.Feature: Login" />
       </list>
     </recent_temporary>

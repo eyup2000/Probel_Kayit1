@@ -1,10 +1,8 @@
-package stepdefiniations;
+package stepdefinitions;
 
 import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import utilities.ConfigReader;
 import utilities.Driver;
 

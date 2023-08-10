@@ -9,19 +9,24 @@ import org.junit.runner.RunWith;
 
 
 @CucumberOptions(
-        plugin = {
-                "pretty",
-                "html:target/default-cucumber-reports.html",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failedRerun.txt" ,
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-                //"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/ExtentReportRegression.html"
-               // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-        },
+        plugin = {"pretty",
+                "json:target/json-report/cucumber.json",
+                "html:target/cucumber-reports.json",
+                "junit:target/cucumber-reports/Cucumber.xml",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+//        plugin = {
+//                "pretty",
+//                "html:target/default-cucumber-reports.html",
+//                "json:target/json-reports/cucumber.json",
+//                "junit:target/xml-report/cucumber.xml",
+//                "rerun:target/failedRerun.txt" ,
+//                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+//                //"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/ExtentReportRegression.html"
+//               // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+       // },
         features = "src/test/resources",
-        glue = "stepdefiniations",
-        tags = "@test1",
+        glue = "stepdefinitions",
+        tags = "@probel_hastaKayit",
         dryRun = false
 
 )

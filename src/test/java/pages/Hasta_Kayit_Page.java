@@ -1,5 +1,6 @@
 package pages;
 
+import io.cucumber.java.zh_cn.假如;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,9 +12,61 @@ public class Hasta_Kayit_Page {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+    @FindBy(xpath = "(//input[@class='inpt wpx50'])[3]")
+    public WebElement kurum;
 
+    @FindBy(xpath = "(//input[@class='inpt wpx50'])[4]")
+    public WebElement kurumDetay;
 
-//------------------------------- ilyas
+    @FindBy(id = "PopupSaveButton_0")
+    public  WebElement kaydetButton;
+    @FindBy(xpath = "(//p)[1]")
+    public WebElement HataMassage;
+
+    //----------------------------- Merve
+    @FindBy(id="CHK_HASTA_KAYIT_YENIDOGAN")
+    public WebElement yenidoganCheckBox;
+
+    @FindBy(id="TXT_HASTA_KAYIT_DOGUM_SIRASI")
+    public WebElement dogumSirasiSearchBox;
+
+    @FindBy(id="CHK_HASTA_KAYIT_MAVIKART")
+    public WebElement maviKartCheckBox;
+
+    @FindBy(id="TXT_HASTA_KAYIT_TC_KIMLIK_NO")
+    public WebElement TCsearchBox;
+
+    @FindBy(id="TXT_HASTA_KAYIT_DOGUM_TARIHI")
+    public WebElement dogumTarihiSearchBox;
+
+    @FindBy(xpath = "//a[@onclick='HastaKayitTCKimlikAktar()']")
+    public WebElement TCaktarButton;
+
+    @FindBy(xpath = "//a[@onclick='HastaKayitTCKimlikDogrula()']")
+    public WebElement TCDogrulaButton;
+
+    @FindBy(xpath = "//*[@id=\"dlgKurumArama\"]/div[2]/div[1]/a/span")
+    public WebElement dogrulaKapatButton;
+
+    @FindBy(id="TXT_HASTA_KAYIT_SOYADI")
+    public WebElement soyadiSearchBox;
+
+    @FindBy(id="TXT_HASTA_KAYIT_ADI")
+    public WebElement adiSearchBox;
+
+    @FindBy(id="CMB_HASTA_KAYIT_YAKINLIK")
+    public WebElement yakinligiDropdown;
+
+    @FindBy(id="TXT_HASTA_KAYIT_KART_SAHIBI")
+    public WebElement kartSahibiSearchBox;
+
+    @FindBy(id="CMB_HASTA_KAYIT_CINSIYET")
+    public  WebElement cinsiyetDropdown;
+
+    @FindBy(id="TXT_HASTA_KAYIT_MEDENI_HAL")
+    public WebElement medeniHaliSearchBox;
+
+//------------------------------- İlyas
     @FindBy(xpath = "//*[@id=\"TXT_HASTA_KAYIT_TEL\"]")
     public WebElement telefonnumarasi;
 
@@ -46,6 +99,43 @@ public class Hasta_Kayit_Page {
 
     @FindBy(xpath = "//*[@id='CHK_HASTA_KAYIT_KVKK_ONAM']")
     public WebElement KVKK;
+
+    //----------------------------------------------------- Fatih
+
+
+    @FindBy(xpath = "//input[@class='inpt wpx270']")
+    public WebElement adresSearchBox;
+
+    @FindBy(xpath = "//input[@class='inpt wpx265']")
+    public WebElement adresSearchBox2;
+
+    @FindBy(xpath = "(//input[@class='inpt wpx50'])[9]")
+    public WebElement ilSearchBox;
+
+    @FindBy(xpath = "(//input[@class='inpt wpx50'])[10]")
+    public  WebElement ilceSearchBox;
+
+    @FindBy(xpath = "(//input[@class='inpt wpx50'])[11]")
+    public  WebElement mahalleSearchBox;
+
+    @FindBy(xpath = "(//input[@class='inpt wpx50'])[10]")
+    public  WebElement koySearchBox;
+
+    @FindBy(xpath = "//input[@class='inpt wpx160']")
+    public  WebElement caddeSkSearchBox;
+
+    @FindBy(xpath = "//input[@class='inpt wpx70']")
+    public  WebElement postaKoduSearchBox;
+
+    @FindBy(xpath = "(//a[@class='hastaButton backWhite'])[6]")
+    public  WebElement adresAktarButton;
+
+    @FindBy(xpath = "(//a[@class='hastaButton backWhite'])[7]")
+    public  WebElement beyanAdresButton;
+
+    @FindBy(xpath = "//textarea[@class='inpt wpx355']")
+    public WebElement aciklamaSearchBox;
+
 
 
 

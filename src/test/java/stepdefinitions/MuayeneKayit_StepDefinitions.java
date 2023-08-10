@@ -1,4 +1,4 @@
-package stepdefiniations;
+package stepdefinitions;
 
 public class MuayeneKayit_StepDefinitions {
 }

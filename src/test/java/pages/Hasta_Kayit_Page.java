@@ -91,7 +91,7 @@ public class Hasta_Kayit_Page {
     @FindBy(xpath = "//*[@id='CHK_HASTA_KAYIT_SMS_GONDERILEBILIR']")
     public WebElement SMS;
 
-    @FindBy(xpath = "//*[@id='CHK_HASTA_KAYIT_EMAIL_GONDERILEBILIR']")
+    @FindBy(id = "CHK_HASTA_KAYIT_EMAIL_GONDERILEBILIR")
     public WebElement EMAIL;
 
     @FindBy(xpath = "//*[@id='CHK_HASTA_KAYIT_KIMLIK_FOTOKOPISI']")

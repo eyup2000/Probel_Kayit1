@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="frist project is created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Hasta_Kayit_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Hasta_Kayit_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Login_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Login_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extent-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/PdfReport/ExtentPdf.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/embedded1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

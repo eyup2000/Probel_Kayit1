@@ -136,8 +136,37 @@ public class Hasta_Kayit_Page {
     @FindBy(xpath = "//textarea[@class='inpt wpx355']")
     public WebElement aciklamaSearchBox;
 
+ //--------------------------------------------------------- Baris
 
+    @FindBy(xpath = "(//select[@class='inpt '])[1]")
+    public  WebElement uyruguDropdown;
 
+    @FindBy(xpath = "(//select[@class='inpt '])[2]")
+    public  WebElement basvuruSekliDropdown;
+
+    @FindBy(xpath = "(//input[@class='inpt '])[13]")
+    public  WebElement babaAdiSearchBox;
+
+    @FindBy(xpath = "(//input[@class='inpt '])[14]")
+    public  WebElement anaAdiSearchBox;
+
+    @FindBy(xpath = "(//input[@class='inpt '])[15]")
+    public  WebElement dogumYeriSearchBox;
+
+    @FindBy(id = "TXT_HASTA_KAYIT_ANNE_TC_KIMLIK_NO")
+    public  WebElement anneTCNoSearchBox;
+
+    @FindBy(xpath = "(//a[@class='hastaButton backWhite'])[5]")
+    public  WebElement dogrulaF1Button;
+
+    @FindBy(xpath = "//input[@id='TXT_HASTA_KAYIT_ANNE_DOGUM_TARIHI']")
+    public WebElement anneDogumTarihiSearchBox;
+
+    @FindBy(xpath = "(//a[@class='hem_border hem_button hem_sil hem_left lookupClearButton backWhite'])")
+    public  WebElement hastaTuruSilmeButton;
+
+    @FindBy(xpath = "(//input[@class='inpt  lookupOpenButton'])[3]")
+    public  WebElement hastaTuruButton;
 
 
 

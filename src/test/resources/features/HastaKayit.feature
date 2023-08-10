@@ -2,8 +2,7 @@
 Feature: probel_hastaKayit
 
   Background:
-    Given the user enters the URL for login
-    When The user logs in
+    Given The user logs in
     And The user goes Hasta İşlemleri, Ayaktan Hasta İşlemleri and then click Poliklinik Muayene Kayıt
     And Click the Hasta button
     And Enter Kurum, Kurum detay

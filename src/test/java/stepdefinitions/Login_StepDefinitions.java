@@ -16,11 +16,8 @@ public class Login_StepDefinitions {
     Actions actions = new Actions(Driver.getDriver());
 
 
-        @Given("the user enters the URL for login")
-        public void the_user_enters_the_url_for_login() {
 
-        }
-        @When("The user logs in")
+        @Given("The user logs in")
         public void the_user_logs_in() {
 
         login_page.kullaniciKodu.sendKeys(ConfigReader.getProperty("userName"));

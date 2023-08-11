@@ -17,12 +17,7 @@ public class MuayeneKayit_StepDefinitions {
     String patientNo = ConfigReader.getProperty("PatientNo");
     String protocolNo = ConfigReader.getProperty("ProtocolNo");
 
-    /*
-        @Given("The user logs in and goes Poliklinik Muayene Kayıt page")
-        public void theUserLogsInAndGoesPoliklinikMuayeneKayıtPage() {
-            lp.login();
-        }
-    */
+
     @When("insert the TC Identity Number in TC ID box and enter")
     public void insertTheTCIdentityNumberInTCIDBoxAndEnter() {
         mkp.insertTCID(tcID);
@@ -171,5 +166,78 @@ public class MuayeneKayit_StepDefinitions {
     @Then("assert the Report Transactions pop up")
     public void assertTheReportTransactionsPopUp() {
         mkp.assertTheReportTransactionsPopUp();
+    }
+
+    @When("click on Health Council button")
+    public void clickOnHealthCouncilButton() {
+        mkp.clickOnHealthCouncilButton();
+    }
+
+    @Then("assert the Health Council page")
+    public void assertTheHealthCouncilPage() {
+        mkp.assertTheHealthCouncilPage();
+    }
+
+    @When("click on Utility Operations button")
+    public void clickOnUtilityOperationsButton() {
+        mkp.goToUtilityOperationsPage();
+    }
+
+    @Then("assert the Utility Operations pop up")
+    public void assertTheUtilityOperationsPopUp() {
+        mkp.assertUtilityOperationsPage();
+    }
+
+    @When("click on RIS button")
+    public void clickOnRISButton() {
+        mkp.clickOnRISButton();
+
+    }
+
+    @Then("assert the RIS Acceptance Procedures page")
+    public void assertTheRISAcceptanceProceduresPage() {
+        mkp.assertTheRISAcceptanceProceduresPage();
+    }
+
+    @When("click on Lab button")
+    public void clickOnLabButton() {
+        mkp.clickOnLabButton();
+    }
+
+    @Then("assert the Lab. Pre-acceptance page")
+    public void assertTheLabPreAcceptancePage() {
+        mkp.assertTheLabPreAcceptancePage();
+    }
+
+    @When("click on acceptance informations button")
+    public void clickOnAcceptanceInformationsButton() {
+        mkp.goToAcceptanceInformationsSection();
+    }
+
+    @Then("assert the acceptance informations section")
+    public void assertTheAcceptanceInformationsSection() {
+        mkp.asserAcceptanceInformationsSection();
+    }
+
+    @When("click on account button")
+    public void clickOnAccountButton() {
+        mkp.goToAccountSection();
+
+    }
+
+    @Then("assert the account section")
+    public void assertTheAccountSection() {
+        mkp.asserAccountSection();
+
+    }
+
+    @When("click on advance payment button")
+    public void clickOnAdvancePaymentButton() {
+        mkp.goToAdvancePaymentSection();
+    }
+
+    @Then("assert the advance payment section")
+    public void assertTheAdvancePaymentSection() {
+        mkp.assertAdvancePaymentSection();
     }
 }

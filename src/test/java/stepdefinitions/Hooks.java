@@ -23,8 +23,6 @@ public class Hooks {
        // System.out.println("scenario id =" + scenario.getId());
         System.out.println("scenario name =" + scenario.getName());
 
-
-
     }
 
     @After

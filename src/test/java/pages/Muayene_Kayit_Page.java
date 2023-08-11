@@ -62,10 +62,15 @@ public class Muayene_Kayit_Page {
     WebElement reports_button;
 
     @FindBy(linkText = "Sağlık Kurulu")
-    WebElement saglikKurulu_button;
+    WebElement healthCouncil_button;
+
+    @FindBy(xpath = "//div[@class='PopupTitle']")
+    WebElement healthCouncil_title;
+
+
 
     @FindBy(linkText = "Yardımcı İşlemler")
-    WebElement yardimciIslemler_button;
+    WebElement utilityOperations_button;
 
     @FindBy(linkText = "Ris")
     WebElement ris_button;
@@ -171,7 +176,7 @@ public class Muayene_Kayit_Page {
     // TODO: Kabul Bilgileri Section
 
     @FindBy(xpath = "//label[@data-target='pKabul']")
-    WebElement kabulBilgileri_section;
+    WebElement acceptanceInformations_section;
 
     @FindBy(id = "KABUL_SEKLI_ID")
     WebElement kabulSekli_dropDown;
@@ -247,10 +252,14 @@ public class Muayene_Kayit_Page {
 
 
     @FindBy(xpath = "//label[@data-target='pHesap']")
-    WebElement hesap_section;
+    WebElement account_section;
+    @FindBy(xpath = "(//td[@class='dx-ellipsis'])[1]")
+    WebElement process_title;
+
+
 
     @FindBy(xpath = "//label[@data-target='pAvans']")
-    WebElement avans_section;
+    WebElement advancePayment_section;
 
     @FindBy(id = "TELEFON")
     WebElement phone;
@@ -263,6 +272,8 @@ public class Muayene_Kayit_Page {
 
     @FindBy(id = "PRINTOUT POPUP")
     WebElement printOutPopUp;
+    @FindBy(id = "UtilityOperations POPUP")
+    WebElement utilityOperationsPopUp;
 
     @FindBy(xpath = "//span[@class='no item']")
     WebElement closeWarningPopUp_button;
@@ -378,6 +389,73 @@ public class Muayene_Kayit_Page {
     }
 
     public void assertTheReportTransactionsPopUp() {
-        Assert.assertTrue(popUpPage_Title.isDisplayed());
+
+        String reportTransactionsPopupTitle= "Rapor İşlemleri";
+        String reportTransactionsPopupLocateTitle= popUpPage_Title.getText();
+        System.out.println("reportTransactionsPopupTitle = " + reportTransactionsPopupTitle);
+        System.out.println("reportTransactionsPopupLocateTitle = " + reportTransactionsPopupLocateTitle);
+
+       // Assert.assertEquals(popUpPage_Title.getText(),reportTransactionsPopupTitle);
+        Assert.assertTrue(reportTransactionsPopupLocateTitle.contains(reportTransactionsPopupTitle));
+    }
+
+    public void clickOnHealthCouncilButton() {
+        healthCouncil_button.click();
+    }
+
+    public void assertTheHealthCouncilPage() {
+        String healthCouncilPageTitle = "Sağlık Kurulu";
+        Assert.assertEquals(healthCouncil_title.getText(),healthCouncilPageTitle);
+    }
+
+    public void goToUtilityOperationsPage() {
+        utilityOperations_button.click();
+    }
+
+    public void assertUtilityOperationsPage() {
+        Assert.assertTrue(utilityOperationsPopUp.isDisplayed());
+    }
+
+    public void clickOnRISButton() {
+        ris_button.click();
+    }
+
+    public void assertTheRISAcceptanceProceduresPage() {
+        String risPageTitle = "Ris Kabul İşlemleri";
+            Assert.assertEquals(popUpPage_Title.getText(),risPageTitle);
+    }
+
+    public void clickOnLabButton() {
+        lab_button.click();
+    }
+
+    public void assertTheLabPreAcceptancePage() {
+        String labPageTitle = "Lab. Ön Kabul";
+        Assert.assertEquals(popUpPage_Title.getText(),labPageTitle);
+    }
+
+    public void goToAcceptanceInformationsSection() {
+        acceptanceInformations_section.click();
+    }
+
+    public void asserAcceptanceInformationsSection() {
+        Assert.assertTrue(kabulBilgileriTanim_button.isDisplayed());
+    }
+
+    public void goToAccountSection() {
+        account_section.click();
+    }
+
+    public void asserAccountSection() {
+        Assert.assertTrue(process_title.isDisplayed());
+
+    }
+
+    public void goToAdvancePaymentSection() {
+        advancePayment_section.click();
+    }
+
+    public void assertAdvancePaymentSection() {
+        Assert.assertTrue(advancePayment_section.isDisplayed());
     }
 }

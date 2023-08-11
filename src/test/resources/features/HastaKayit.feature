@@ -25,4 +25,4 @@ Feature: probel_hastaKayit
     And verify the text -Bebeğin doğum haftası günü-
     And -Bebeğin doğum- -haftasi/günü- enter a week and future days
     And enter mobile number -cep telefonu- and click -sms gönderilebilir-
-    And Click the -kaydet f10- box
+    And Click the -kaydet f10- boxx

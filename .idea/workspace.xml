@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="frist project is created">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="eyup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691077519032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="eyup">
+      <created>1691770123260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691770123260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="frist project create" />
-    <option name="LAST_COMMIT_MESSAGE" value="frist project create" />
+    <MESSAGE value="eyup" />
+    <option name="LAST_COMMIT_MESSAGE" value="eyup" />
   </component>
 </project>

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="frist project is created">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="19.47">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Pdf/ExtentPdf.pdf" beforeDir="false" />
     </list>
@@ -23,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -172,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691077519032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="19.47">
+      <created>1691772477715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691772477715</updated>
+    </task>
+    <task id="LOCAL-00003" summary="19.47">
+      <created>1691772692569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691772692569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="frist project create" />
-    <option name="LAST_COMMIT_MESSAGE" value="frist project create" />
+    <MESSAGE value="19.47" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.47" />
   </component>
 </project>

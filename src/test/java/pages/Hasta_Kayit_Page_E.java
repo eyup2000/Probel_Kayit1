@@ -1,14 +1,13 @@
 package pages;
 
-import io.cucumber.java.zh_cn.假如;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class Hasta_Kayit_Page {
+public class Hasta_Kayit_Page_E {
 
-    public Hasta_Kayit_Page(){
+    public Hasta_Kayit_Page_E(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
@@ -65,6 +64,15 @@ public class Hasta_Kayit_Page {
 
     @FindBy(id="TXT_HASTA_KAYIT_MEDENI_HAL")
     public WebElement medeniHaliSearchBox;
+
+    @FindBy(xpath = "//input[@id='TXT_HASTA_KAYIT_TAHSIS_NO']")
+    public WebElement pasaportIdSearchBox;
+
+    @FindBy(xpath = "//input[@id='TXT_HASTA_KAYIT_KARNE_SERI']")
+    public WebElement pasaportNoSearchBox1;
+
+    @FindBy(xpath = "//input[@id='TXT_HASTA_KAYIT_KARNE_NO']")
+    public WebElement pasaportNoSearchBox2;
 
 //------------------------------- İlyas
     @FindBy(xpath = "//*[@id=\"TXT_HASTA_KAYIT_TEL\"]")

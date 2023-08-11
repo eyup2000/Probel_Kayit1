@@ -154,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: HastaKayit" />
+        <item itemvalue="Cucumber Java.Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" />
         <item itemvalue="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page (1)" />
         <item itemvalue="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
-        <item itemvalue="Cucumber Java.Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" />
+        <item itemvalue="Cucumber Java.Feature: HastaKayit" />
       </list>
     </recent_temporary>
   </component>

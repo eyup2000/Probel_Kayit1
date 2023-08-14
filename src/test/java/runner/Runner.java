@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/Cucumber.xml",
                 },
 
-        features = "src/test/resources",
+        features = "C:\\Users\\90542\\IdeaProjects\\Last Probel\\src\\test\\resources",
         glue = "stepdefinitions",
-        tags = "@e_test3",
+        tags = " @e_test2",
         dryRun = false
 
 )

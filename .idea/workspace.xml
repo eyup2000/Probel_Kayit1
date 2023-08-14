@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a850580b-5b48-46f6-b02e-8dafac54ea68" name="Changes" comment="19.47">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2023_19_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_08_2023_19_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Pdf/ExtentPdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Detayli_Arama_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DetaylıHastaArama_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DetaylıHastaArama_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DetaylıHastaArama_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DetayliHastaArama.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DetayliHastaArama.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +49,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/90542/IdeaProjects/Last Probel/src/test/java/stepdefinitions&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
@@ -55,15 +63,16 @@
       <recent name="C:\Users\user\IdeaProjects\Probel_Kayit\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: HastaKayit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC0054 - *&quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot; &quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot;">
+    <configuration name="Scenario: TC0053 - Ability to select &quot;Kullanıcı&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Probel_Kayit" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: HastaKayit" />
+      <option name="NAME_FILTER" value="^TC0053 \- Ability to select \&quot;Kullanıcı\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0053 \- Ability to select \&quot;Kullanıcı\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0053 - Ability to select &quot;Kullanıcı&quot;" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -75,35 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/HastaKayit.feature" />
-      <option name="GLUE" value="stepdefiniations" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Probel_Kayit" />
-      <option name="NAME_FILTER" value="^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC0054 - *&quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot; &quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="stepdefiniations" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Probel_Kayit" />
-      <option name="NAME_FILTER" value="^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0117 \- \&quot;Passport no\&quot; and \&quot;Passport id\&quot; verification on the registration page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
+      <option name="NAME_FILTER" value="^TC0054 \- \*\&quot;Patient Registration Query should be possible with \&quot;TC Kimlik No\&quot; \&quot;Patient Registration Query should be possible with \&quot;TC Kimlik No\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0054 \- \*\&quot;Patient Registration Query should be possible with \&quot;TC Kimlik No\&quot; \&quot;Patient Registration Query should be possible with \&quot;TC Kimlik No\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0054 - *&quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot; &quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot;" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -115,15 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC0056 - Patients should be listed with Yatış Tarihi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="stepdefiniations" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Probel_Kayit" />
-      <option name="NAME_FILTER" value="^TC0118 \- \&quot;Tc\&quot; Kimlik no\&quot; error message verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0118 \- \&quot;Tc\&quot; Kimlik no\&quot; error message verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" />
+      <option name="NAME_FILTER" value="^TC0056 \- Patients should be listed with Yatış Tarihi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0056 \- Patients should be listed with Yatış Tarihi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0056 - Patients should be listed with Yatış Tarihi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,28 +124,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC0057 - *Patients should be listed with &quot;Geliş Tarihi&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Probel_Kayit" />
+      <option name="NAME_FILTER" value="^TC0057 \- \*Patients should be listed with \&quot;Geliş Tarihi\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC0057 \- \*Patients should be listed with \&quot;Geliş Tarihi\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC0057 - *Patients should be listed with &quot;Geliş Tarihi&quot;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runner.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Probel_Kayit" />
+      <option name="NAME_FILTER" value="^login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: HastaKayit" />
-        <item itemvalue="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page (1)" />
-        <item itemvalue="Cucumber Java.Scenario: TC0117 - &quot;Passport no&quot; and &quot;Passport id&quot; verification on the registration page" />
-        <item itemvalue="Cucumber Java.Scenario: TC0118 - &quot;Tc&quot; Kimlik no&quot; error message verification" />
+        <item itemvalue="Cucumber Java.Scenario: TC0054 - *&quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot; &quot;Patient Registration Query should be possible with &quot;TC Kimlik No&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: login" />
+        <item itemvalue="Cucumber Java.Scenario: TC0053 - Ability to select &quot;Kullanıcı&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: TC0057 - *Patients should be listed with &quot;Geliş Tarihi&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: TC0056 - Patients should be listed with Yatış Tarihi" />
       </list>
     </recent_temporary>
   </component>
